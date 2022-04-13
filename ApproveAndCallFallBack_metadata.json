@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveApproval",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EZYPTO TOKEN.SOL": "ApproveAndCallFallBack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EZYPTO TOKEN.SOL": {
+			"keccak256": "0xee58edf542d803460ebcfcea2ad4305637360d30433be05080945fd49c41e244",
+			"urls": [
+				"bzz-raw://6a504c93d6575b29e759f2c4836a6e3ecab15926623503bd38f908a84cad63eb",
+				"dweb:/ipfs/Qmc8KymB7xD9WkmciqnPj5B7nvD64iVyet82G4dsUShLGL"
+			]
+		}
+	},
+	"version": 1
+}
